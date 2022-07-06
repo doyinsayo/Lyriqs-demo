@@ -1,3 +1,4 @@
+# using genius api
 import lyricsgenius as lg # https://github.com/johnwmillr/LyricsGenius
 
 
@@ -9,7 +10,7 @@ genius = lg.Genius('0MNM29rApUiNgq53PVDQ0aG1XLk9_8nx9EHW1Fa90v9SRKnzzzVXAA7vNqo0
 artists = ['Frank Ocean', 'Kanye West', 'Burna boy']
 
 
-def get_lyrics(arr, k):  # Write lyrics of k songs by each artist in arr
+def get_lyriqs(arr, k):  # Write lyrics of k songs by each artist in arr
     c = 0  # Counter
     for name in arr:
         try:
@@ -22,4 +23,4 @@ def get_lyrics(arr, k):  # Write lyrics of k songs by each artist in arr
             print(f"some exception at {name}: {c}")
 
 
-get_lyrics(artists, 3)
+get_lyriqs(artists, 3)
