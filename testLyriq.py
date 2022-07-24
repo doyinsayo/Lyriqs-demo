@@ -24,3 +24,4 @@ def get_lyriqs(arr, k):  # Write lyrics of k songs by each artist in arr
 
 
 get_lyriqs(artists, 3)
+
